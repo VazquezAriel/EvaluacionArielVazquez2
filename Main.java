@@ -15,10 +15,10 @@ public class Main {
 
 
         // IMPRESION DEL RESULTADO
-        // Process proceso = new Process(number, row, column);
-        // System.out.println("- Resultado:");
-        // proceso.printSequentialMatrix();
-        // System.out.println("==================================================");
+        Process proceso = new Process(posicionInicial, posicionFinal);
+        System.out.println("- Resultado:");
+        proceso.ValidatePosition();
+        System.out.println("==================================================");
 
     }
     
